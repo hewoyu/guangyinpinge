@@ -39,7 +39,7 @@ func _ready() -> void:
 	tip.add_theme_color_override("font_color", GameTheme.V_TEXT_SUB)
 	footer.add_child(tip)
 	var ver := Label.new()
-	ver.text = "拾光拼途 v5.0 · Demo"
+	ver.text = "光阴拼阁 v5.0 · Demo"
 	ver.add_theme_font_size_override("font_size", 15)
 	ver.add_theme_color_override("font_color", GameTheme.V_TEXT_SUB)
 	footer.add_child(ver)

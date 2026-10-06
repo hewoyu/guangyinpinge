@@ -1,4 +1,4 @@
-# 拾光拼途（Time Collage: Focus Puzzle）
+# 光阴拼阁（Time Collage: Focus Puzzle）
 
 > 番茄钟 × 拼图收集 × 桌面伴侣 · Godot 4.7.1 · 1280×720
 > 按用户提供的 12 张官方截图逐页复刻（视觉分析文档 docs/ui_real_*.md 共 8 份）
@@ -62,3 +62,4 @@
 多智能体 + 视觉分析流水线：4 个 deepseek-v4.1-flash 视觉智能体逐张读图 → 8 份复刻级规格文档
 （含实测坐标/色值/逐字文案）→ 团队按规格分工（Lead 承担 Jigsaw 引擎/核心页/回归，美术/玩法/UI/QA
 队友协作）→ 回归 21/21。全程零外部资源，SVG/WAV 程序化生成。
+

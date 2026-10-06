@@ -1,6 +1,6 @@
 extends Node
 ## 全局状态（autoload: GameState）
-## 《拾光拼途》v3：拼图集 + 专注统计 + 存档
+## 《光阴拼阁》v3：拼图集 + 专注统计 + 存档
 ## 真实机制：每幅拼图 144 块（12×12），番茄钟专注掉落碎片
 
 signal piece_collected(piece_index: int)

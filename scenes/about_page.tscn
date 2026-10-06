@@ -41,7 +41,7 @@ offset_right = 840.0
 offset_bottom = 92.0
 theme_override_font_sizes/font_size = 32
 theme_override_colors/font_color = Color(0.29, 0.23, 0.16, 1)
-text = "关于拾光拼途"
+text = "关于光阴拼阁"
 horizontal_alignment = 1
 
 [node name="Quote" type="Label" parent="."]

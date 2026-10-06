@@ -258,7 +258,7 @@ func _build_focus_side() -> void:
 	v.add_theme_constant_override("separation", 6)
 	card.add_child(v)
 	var task := Label.new()
-	task.text = "拾光拼途"
+	task.text = "光阴拼阁"
 	task.add_theme_font_size_override("font_size", GameTheme.V_F_BODY)
 	task.add_theme_color_override("font_color", GameTheme.V_TEXT_BODY)
 	v.add_child(task)
