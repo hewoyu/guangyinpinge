@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://uismokev3001"]
+
+[ext_resource type="Script" path="res://tests/ui_smoke_v3.gd" id="1"]
+
+[node name="SmokeRunner" type="Node"]
+script = ExtResource("1")

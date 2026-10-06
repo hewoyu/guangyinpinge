@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200">
+  <g opacity="0.24" fill="none">
+    <!-- 主花枝 -->
+    <path d="M30 195 Q55 150 90 130 T150 95" stroke="#8A7A5C" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 分枝 -->
+    <path d="M70 158 Q85 130 80 108" stroke="#8A7A5C" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M115 122 Q135 112 145 92" stroke="#8A7A5C" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- 叶片（橄榄绿低饱和） -->
+    <path d="M62 150 Q50 138 58 122 Q76 132 70 148 Z" fill="#A6A46E" stroke="#8E8C5C" stroke-width="1"/>
+    <path d="M96 128 Q112 122 120 104 Q100 106 92 118 Z" fill="#B0AE7A" stroke="#8E8C5C" stroke-width="1"/>
+    <path d="M128 100 Q144 98 152 82 Q132 80 126 92 Z" fill="#A6A46E" stroke="#8E8C5C" stroke-width="0.9"/>
+    <!-- 主花1（五瓣 水彩） -->
+    <g transform="translate(90,128)">
+      <ellipse cx="0" cy="-11" rx="7" ry="11" fill="#DA9C76" stroke="#C4875F" stroke-width="1" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-11" rx="7" ry="11" fill="#E2A984" stroke="#C4875F" stroke-width="1" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-11" rx="7" ry="11" fill="#DA9C76" stroke="#C4875F" stroke-width="1" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-11" rx="7" ry="11" fill="#E0A47E" stroke="#C4875F" stroke-width="1" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-11" rx="7" ry="11" fill="#DA9C76" stroke="#C4875F" stroke-width="1" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="4.5" fill="#C98F4E"/>
+    </g>
+    <!-- 主花2（半开） -->
+    <g transform="translate(148,88) scale(0.8)">
+      <ellipse cx="0" cy="-10" rx="6" ry="10" fill="#E8B08C" stroke="#C4875F" stroke-width="1" transform="rotate(40)"/>
+      <ellipse cx="0" cy="-10" rx="6" ry="10" fill="#DA9C76" stroke="#C4875F" stroke-width="1" transform="rotate(140)"/>
+      <ellipse cx="0" cy="-10" rx="6" ry="10" fill="#E2A984" stroke="#C4875F" stroke-width="1" transform="rotate(250)"/>
+      <circle cx="0" cy="0" r="3.8" fill="#C98F4E"/>
+    </g>
+    <!-- 小花苞 -->
+    <circle cx="58" cy="112" r="4" fill="#E8B08C" stroke="#C4875F" stroke-width="0.8"/>
+    <circle cx="152" cy="70" r="3" fill="#E0A47E" stroke="#C4875F" stroke-width="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96">
+  <defs>
+    <linearGradient id="tapeBaseG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF8EF" stop-opacity="0.88"/>
+      <stop offset="0.5" stop-color="#FBEEDB" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#F4E4C8" stop-opacity="0.88"/>
+    </linearGradient>
+    <pattern id="stripes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect x="0" y="0" width="10" height="24" fill="#E08E79" fill-opacity="0.28"/>
+    </pattern>
+  </defs>
+  <g>
+    <rect x="0" y="8" width="320" height="80" fill="url(#tapeBaseG)"/>
+    <rect x="0" y="8" width="320" height="80" fill="url(#stripes)"/>
+    <path d="M 0 8 L 14 0 L 26 8 Z" fill="#F4E4C8" fill-opacity="0.9"/>
+    <path d="M 320 8 L 306 0 L 294 8 Z" fill="#F4E4C8" fill-opacity="0.9"/>
+    <path d="M 0 88 L 14 96 L 26 88 Z" fill="#F4E4C8" fill-opacity="0.9"/>
+    <path d="M 320 88 L 306 96 L 294 88 Z" fill="#F4E4C8" fill-opacity="0.9"/>
+  </g>
+</svg>

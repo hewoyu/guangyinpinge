@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://cw7c5frsnciyy"]
+
+[ext_resource type="Script" path="res://scripts/settings_page.gd" id="1"]
+
+[node name="SettingsPage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="TopBar" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 34.0
+grow_horizontal = 2
+
+[node name="BackButton" type="Button" parent="TopBar"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 6.0
+offset_right = 90.0
+offset_bottom = 30.0
+flat = true
+text = "← 返回"
+
+[node name="Columns" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 48.0
+offset_right = -40.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 24
+
+[node name="LeftCol" type="VBoxContainer" parent="Columns"]
+layout_mode = 2
+custom_minimum_size = Vector2(360, 0)
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="MidCol" type="VBoxContainer" parent="Columns"]
+layout_mode = 2
+custom_minimum_size = Vector2(440, 0)
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="RightCol" type="VBoxContainer" parent="Columns"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 0)
+size_flags_horizontal = 3
+theme_override_constants/separation = 12

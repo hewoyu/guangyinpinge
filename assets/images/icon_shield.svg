@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="shdG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE3D0"/>
+      <stop offset="1" stop-color="#7FB6A4"/>
+    </linearGradient>
+  </defs>
+  <path d="M 32 6 L 52 13 Q 54 34 46 46 Q 39 56 32 59 Q 25 56 18 46 Q 10 34 12 13 Z" fill="url(#shdG)" stroke="#4A3728" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 32 18 Q 42 22 40 34 Q 36 44 26 40 Q 20 34 24 26 Q 27 20 32 18 Z" fill="#5E8B7C" opacity="0.85"/>
+  <path d="M 32 20 L 32 44" stroke="#FFF8EF" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>

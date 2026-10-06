@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280">
+  <defs>
+    <linearGradient id="darkG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A2333" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#2A2333" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#2A2333" stop-opacity="0.78"/>
+    </linearGradient>
+    <radialGradient id="warmCenter" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#FFE9AE" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F4B860" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#F4B860" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="innerHalo" cx="0.5" cy="0.45" r="0.32">
+      <stop offset="0" stop-color="#FFF6D8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FFF6D8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#darkG)"/>
+  <ellipse cx="360" cy="576" rx="380" ry="420" fill="url(#warmCenter)"/>
+  <ellipse cx="360" cy="576" rx="220" ry="260" fill="url(#innerHalo)"/>
+</svg>

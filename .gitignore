@@ -1,0 +1,16 @@
+# Godot 4
+.godot/
+*.translation
+
+# 导出产物
+build/
+export/
+*.exe
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时
+*.tmp
+*.log

@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://puzzleboard0001"]
+
+[ext_resource type="Script" path="res://scripts/puzzle_board.gd" id="1"]
+
+[node name="PuzzleBoard" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="GridBackground" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+color = Color(0.18, 0.15, 0.13, 0.45)
+
+[node name="TrayBackground" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+color = Color(0.13, 0.11, 0.09, 0.55)
+
+[node name="PiecesLayer" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="AutoButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -132.0
+offset_top = -64.0
+offset_right = -16.0
+offset_bottom = -12.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 20
+text = "自动拼图"

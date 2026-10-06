@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE3D0"/>
+      <stop offset="0.6" stop-color="#E9F2DC"/>
+      <stop offset="1" stop-color="#FFF6E0"/>
+    </linearGradient>
+    <linearGradient id="hillG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FB6A4"/>
+      <stop offset="1" stop-color="#5E8B7C"/>
+    </linearGradient>
+    <linearGradient id="hillG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9CC9A8"/>
+      <stop offset="1" stop-color="#7FB6A4"/>
+    </linearGradient>
+    <linearGradient id="clothG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E08E79"/>
+      <stop offset="1" stop-color="#C46B5A"/>
+    </linearGradient>
+    <radialGradient id="sunG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6D8"/>
+      <stop offset="1" stop-color="#FFF6D8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#skyG)"/>
+  <circle cx="930" cy="170" r="200" fill="url(#sunG)"/>
+  <circle cx="930" cy="170" r="62" fill="#FFE9AE" stroke="#4A3728" stroke-width="6"/>
+
+  <!-- 绘本云朵：大圆团组合 + 粗描边 -->
+  <g stroke="#4A3728" stroke-width="6" stroke-linejoin="round" fill="#FFFDF2">
+    <path d="M 130 180 Q 130 130 185 128 Q 200 90 250 100 Q 270 70 320 84 Q 368 78 380 122 Q 420 130 415 180 Q 410 214 360 216 L 175 216 Q 128 214 130 180 Z"/>
+    <path d="M 620 110 Q 622 68 668 70 Q 682 40 726 52 Q 766 44 776 88 Q 812 96 806 138 Q 800 164 758 166 L 664 166 Q 618 162 620 110 Z"/>
+  </g>
+
+  <!-- 远山 -->
+  <path d="M 0 560 Q 140 420 300 560 Z" fill="url(#hillG)" stroke="#4A3728" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 240 560 Q 420 400 600 560 Z" fill="url(#hillG2)" stroke="#4A3728" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 540 560 Q 700 440 860 560 Z" fill="url(#hillG)" stroke="#4A3728" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 800 560 Q 960 430 1130 560 Z" fill="url(#hillG2)" stroke="#4A3728" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- 草地大色块 -->
+  <path d="M 0 555 Q 300 520 600 550 Q 900 580 1200 545 L 1200 900 L 0 900 Z" fill="url(#hillG2)" stroke="#4A3728" stroke-width="6"/>
+
+  <!-- 左侧大树：圆团树冠 -->
+  <rect x="196" y="560" width="52" height="180" rx="14" fill="#8A6B4F" stroke="#4A3728" stroke-width="6"/>
+  <g fill="#9CC9A8" stroke="#4A3728" stroke-width="6" stroke-linejoin="round">
+    <circle cx="222" cy="430" r="105"/>
+    <circle cx="130" cy="490" r="72"/>
+    <circle cx="315" cy="492" r="76"/>
+  </g>
+  <circle cx="196" cy="405" r="16" fill="#E9F2DC" opacity="0.85"/>
+  <circle cx="255" cy="455" r="10" fill="#E9F2DC" opacity="0.7"/>
+
+  <!-- 草丛 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M 90 800 Q 84 760 96 742 M 106 800 Q 106 762 118 748 M 122 800 Q 128 768 140 760"/>
+    <path d="M 960 810 Q 954 770 966 752 M 976 810 Q 976 772 988 758 M 992 810 Q 998 778 1010 770"/>
+    <path d="M 1100 780 Q 1094 744 1106 728 M 1116 780 Q 1116 746 1128 732"/>
+  </g>
+  <g fill="#F4B860" stroke="#4A3728" stroke-width="4">
+    <circle cx="80" cy="736" r="9"/>
+    <circle cx="131" cy="752" r="8"/>
+    <circle cx="1002" cy="746" r="9"/>
+    <circle cx="1124" cy="722" r="8"/>
+  </g>
+
+  <!-- 野餐布：圆润菱形 -->
+  <path d="M 330 690 L 870 660 L 940 800 L 400 840 Z" fill="url(#clothG)" stroke="#4A3728" stroke-width="7" stroke-linejoin="round"/>
+  <g stroke="#FFF8EF" stroke-width="6" stroke-linecap="round" opacity="0.75">
+    <line x1="430" y1="704" x2="470" y2="812"/>
+    <line x1="560" y1="697" x2="600" y2="805"/>
+    <line x1="690" y1="690" x2="730" y2="798"/>
+    <line x1="810" y1="684" x2="850" y2="790"/>
+  </g>
+
+  <!-- 食物：三明治 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linejoin="round">
+    <path d="M 470 720 L 520 664 L 570 720 Z" fill="#F4D98E"/>
+    <path d="M 470 720 L 520 664 L 570 720 Z" fill="#9CC9A8" transform="translate(0,-8) scale(0.94) translate(30,4)"/>
+    <rect x="468" y="720" width="104" height="16" rx="8" fill="#C46B5A"/>
+  </g>
+  <!-- 西瓜切片 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linejoin="round">
+    <path d="M 700 726 A 58 58 0 0 1 816 726 Z" fill="#E86A6A"/>
+    <path d="M 712 726 A 46 46 0 0 1 804 726 Z" fill="#F49B8C" opacity="0.5"/>
+    <circle cx="740" cy="706" r="5" fill="#4A3728"/>
+    <circle cx="762" cy="698" r="5" fill="#4A3728"/>
+    <circle cx="784" cy="708" r="5" fill="#4A3728"/>
+  </g>
+  <!-- 饮料杯 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linejoin="round">
+    <path d="M 640 690 L 632 760 L 680 760 L 672 690 Z" fill="#FFF8EF"/>
+    <rect x="634" y="676" width="44" height="16" rx="8" fill="#E08E79"/>
+    <path d="M 655 676 Q 650 650 668 636" stroke="#E08E79" stroke-width="5" fill="none"/>
+  </g>
+  <!-- 篮子 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linejoin="round">
+    <path d="M 480 780 L 496 830 L 600 830 L 616 780 Z" fill="#C9A26B"/>
+    <path d="M 548 780 Q 548 748 580 748 Q 612 748 612 780" fill="none"/>
+    <line x1="508" y1="800" x2="604" y2="800" stroke-width="4"/>
+  </g>
+
+  <!-- 蝴蝶结餐巾与果子 -->
+  <circle cx="870" cy="740" r="24" fill="#E9F2DC" stroke="#4A3728" stroke-width="5"/>
+  <circle cx="870" cy="740" r="10" fill="#E08E79" stroke="#4A3728" stroke-width="4"/>
+  <circle cx="900" cy="795" r="16" fill="#F4B860" stroke="#4A3728" stroke-width="5"/>
+  <circle cx="866" cy="812" r="13" fill="#E86A6A" stroke="#4A3728" stroke-width="5"/>
+
+  <!-- 飞舞小蝴蝶 -->
+  <g stroke="#4A3728" stroke-width="4" stroke-linejoin="round" fill="#F4D98E">
+    <ellipse cx="1063" cy="588" rx="16" ry="22" transform="rotate(24 1063 588)"/>
+    <ellipse cx="1094" cy="576" rx="16" ry="22" transform="rotate(-24 1094 576)"/>
+    <line x1="1078" y1="580" x2="1076" y2="560" stroke-width="4"/>
+  </g>
+</svg>

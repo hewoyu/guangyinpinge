@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="duskG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8D7BA8"/>
+      <stop offset="0.4" stop-color="#C9A8C0"/>
+      <stop offset="0.72" stop-color="#F5C8A8"/>
+      <stop offset="1" stop-color="#FFE4B8"/>
+    </linearGradient>
+    <radialGradient id="setSun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6D8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFF6D8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="seaG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8A88C"/>
+      <stop offset="0.35" stop-color="#B87E8C"/>
+      <stop offset="0.7" stop-color="#7A6A96"/>
+      <stop offset="1" stop-color="#4E4470"/>
+    </linearGradient>
+    <linearGradient id="towerG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFF8EF"/>
+      <stop offset="1" stop-color="#F0E4CE"/>
+    </linearGradient>
+    <linearGradient id="rockG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B5B4A"/>
+      <stop offset="1" stop-color="#4A3F33"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#duskG)"/>
+
+  <!-- 落日 + 晚霞云带 -->
+  <circle cx="600" cy="490" r="210" fill="url(#setSun)"/>
+  <circle cx="600" cy="490" r="80" fill="#FFE9AE" stroke="#4A3728" stroke-width="6"/>
+  <g fill="#F5D5B8" opacity="0.85">
+    <ellipse cx="220" cy="200" rx="180" ry="26"/>
+    <ellipse cx="980" cy="240" rx="200" ry="28"/>
+    <ellipse cx="600" cy="150" rx="230" ry="24"/>
+  </g>
+  <g fill="#E8C4B0" opacity="0.8">
+    <ellipse cx="320" cy="300" rx="150" ry="20"/>
+    <ellipse cx="900" cy="330" rx="170" ry="22"/>
+  </g>
+
+  <!-- 海面 -->
+  <rect x="0" y="560" width="1200" height="340" fill="url(#seaG)"/>
+  <!-- 绘本圆弧浪 -->
+  <g fill="none" stroke="#4A3728" stroke-width="6" stroke-linecap="round">
+    <path d="M 60 640 Q 110 610 160 640 Q 210 670 260 640"/>
+    <path d="M 420 660 Q 470 630 520 660 Q 570 690 620 660"/>
+    <path d="M 820 640 Q 870 610 920 640 Q 970 670 1020 640"/>
+    <path d="M 180 760 Q 230 730 280 760 Q 330 790 380 760"/>
+    <path d="M 700 780 Q 750 750 800 780 Q 850 810 900 780"/>
+    <path d="M 940 850 Q 990 820 1040 850 Q 1090 880 1140 850"/>
+    <path d="M 80 860 Q 130 830 180 860 Q 230 890 280 860"/>
+  </g>
+  <!-- 日光倒影 -->
+  <g stroke="#FFE9AE" stroke-width="8" stroke-linecap="round" opacity="0.8">
+    <line x1="540" y1="600" x2="660" y2="600"/>
+    <line x1="520" y1="640" x2="680" y2="640"/>
+    <line x1="555" y1="680" x2="645" y2="680"/>
+    <line x1="530" y1="720" x2="670" y2="720"/>
+    <line x1="570" y1="760" x2="630" y2="760"/>
+  </g>
+
+  <!-- 礁石 -->
+  <g stroke="#4A3728" stroke-width="7" stroke-linejoin="round" fill="url(#rockG)">
+    <path d="M 120 880 Q 100 800 180 770 Q 260 745 330 800 Q 390 840 400 880 Z"/>
+    <path d="M 850 880 Q 840 820 910 795 Q 980 775 1040 820 Q 1090 850 1100 880 Z"/>
+  </g>
+
+  <!-- 灯塔：奶油塔身 + 赤陶横带 -->
+  <g stroke="#4A3728" stroke-width="7" stroke-linejoin="round">
+    <path d="M 545 790 L 562 400 L 638 400 L 655 790 Z" fill="url(#towerG)"/>
+    <path d="M 562 400 L 638 400 L 622 330 L 578 330 Z" fill="#E08E79"/>
+    <path d="M 578 330 L 622 330 L 612 285 L 588 285 Z" fill="#C46B5A"/>
+    <rect x="570" y="252" width="60" height="34" rx="8" fill="#8D7BA8"/>
+  </g>
+  <!-- 塔身横带 -->
+  <g fill="#E08E79" stroke="#4A3728" stroke-width="5">
+    <path d="M 551 720 L 649 720 L 652 760 L 548 760 Z"/>
+    <path d="M 556 620 L 644 620 L 647 660 L 553 660 Z"/>
+    <path d="M 561 520 L 639 520 L 642 560 L 558 560 Z"/>
+  </g>
+  <!-- 灯室 -->
+  <g stroke="#4A3728" stroke-width="6" stroke-linejoin="round">
+    <path d="M 570 252 L 630 252 L 622 210 L 578 210 Z" fill="#FFF8EF"/>
+    <rect x="578" y="168" width="44" height="42" rx="8" fill="#FFE9AE"/>
+  </g>
+  <!-- 灯塔光束 -->
+  <g opacity="0.8">
+    <path d="M 578 190 L 380 130 L 380 250 Z" fill="#FFF6D8" opacity="0.45"/>
+    <path d="M 622 190 L 820 130 L 820 250 Z" fill="#FFF6D8" opacity="0.45"/>
+  </g>
+  <circle cx="600" cy="189" r="16" fill="#FFFDF2" stroke="#4A3728" stroke-width="5"/>
+
+  <!-- 海鸥（绘本 m 形）-->
+  <g stroke="#4A3728" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M 250 180 Q 275 160 300 180 Q 325 160 350 180"/>
+    <path d="M 950 150 Q 972 132 994 150 Q 1016 132 1038 150"/>
+    <path d="M 400 260 Q 418 246 436 260 Q 454 246 472 260"/>
+  </g>
+
+  <!-- 小帆船 -->
+  <g stroke="#4A3728" stroke-width="5" stroke-linejoin="round">
+    <path d="M 950 590 L 950 500 L 1020 590 Z" fill="#FFF8EF"/>
+    <path d="M 938 590 L 938 515 L 885 590 Z" fill="#E08E79"/>
+    <path d="M 925 590 L 1055 590 L 1035 618 L 945 618 Z" fill="#8A6B4F"/>
+  </g>
+</svg>

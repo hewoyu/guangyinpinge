@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bulbG" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#FFF6D8"/>
+      <stop offset="1" stop-color="#F4B860"/>
+    </radialGradient>
+  </defs>
+  <path d="M 32 8 Q 45 8 45 21 Q 45 29 39 34 L 39 40 L 25 40 L 25 34 Q 19 29 19 21 Q 19 8 32 8 Z" fill="url(#bulbG)" stroke="#4A3728" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="26" y1="46" x2="38" y2="46" stroke="#4A3728" stroke-width="4" stroke-linecap="round"/>
+  <line x1="28" y1="52" x2="36" y2="52" stroke="#4A3728" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 27 22 Q 28 16 33 15" stroke="#FFF8EF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+</svg>

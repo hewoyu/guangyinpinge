@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="pauG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4B860"/>
+      <stop offset="1" stop-color="#E08E79"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="14" width="10" height="36" rx="4" fill="url(#pauG)" stroke="#4A3728" stroke-width="3.5"/>
+  <rect x="36" y="14" width="10" height="36" rx="4" fill="url(#pauG)" stroke="#4A3728" stroke-width="3.5"/>
+</svg>

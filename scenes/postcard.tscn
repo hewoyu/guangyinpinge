@@ -1,0 +1,94 @@
+[gd_scene load_steps=5 format=3 uid="uid://postcardv300001"]
+
+[ext_resource type="Script" path="res://scripts/postcard.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/images/bg_win_panel.svg" id="2"]
+[ext_resource type="Texture2D" path="res://assets/images/deco_polaroid_frame_active.svg" id="3"]
+[ext_resource type="Texture2D" path="res://assets/images/deco_light_spot.svg" id="4"]
+
+[node name="Postcard" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="DimLayer" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+modulate = Color(1, 1, 1, 0)
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Card" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_top = -330.0
+offset_right = 360.0
+offset_bottom = 330.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="VBox" type="VBoxContainer" parent="Card"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="PictureFrame" type="Control" parent="Card/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(680, 510)
+
+[node name="Picture" type="TextureRect" parent="Card/VBox/PictureFrame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EffectsLayer" type="Control" parent="Card/VBox/PictureFrame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Card/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(0.29, 0.216, 0.157, 1)
+text = "会动的明信片"
+horizontal_alignment = 1
+
+[node name="BlessingLabel" type="Label" parent="Card/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+theme_override_colors/font_color = Color(0.55, 0.44, 0.33, 1)
+text = "这段时光，已经完整地属于你了"
+horizontal_alignment = 1
+
+[node name="KeepButton" type="Button" parent="Card/VBox"]
+layout_mode = 2
+size_flags_horizontal = 4
+custom_minimum_size = Vector2(240, 58)
+theme_override_font_sizes/font_size = 24
+text = "收下这段时光"

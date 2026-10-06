@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://wavdiag00001"]
+[ext_resource type="Script" path="res://tests/wav_diag.gd" id="1"]
+[node name="WavDiag" type="Node"]
+script = ExtResource("1")

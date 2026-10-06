@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="558" height="268" viewBox="0 0 558 268">
+<defs><linearGradient id="eve" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E8A888"/><stop offset="55%" stop-color="#D89090"/><stop offset="100%" stop-color="#C08898"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B88890"/><stop offset="100%" stop-color="#987898"/></linearGradient></defs>
+<rect width="558" height="150" fill="url(#eve)"/>
+<rect y="150" width="558" height="118" fill="url(#sea)"/>
+<circle cx="430" cy="100" r="30" fill="#F2C898" opacity="0.9"/>
+<path d="M0 148 Q140 136 280 146 T558 142" fill="none" stroke="#E8B8A8" stroke-width="2" opacity="0.6"/>
+<g fill="#8A6878"><path d="M60 138 l10 -22 h3 l-6 22 Z"/><path d="M95 140 l8 -18 h3 l-5 18 Z"/><path d="M150 142 l12 -26 h3 l-7 26 Z"/></g>
+<rect x="470" y="112" width="8" height="36" fill="#7A6878"/>
+<rect x="462" y="106" width="24" height="10" fill="#8A7888"/>
+<circle cx="474" cy="102" r="5" fill="#F5D9A0"/>
+<g fill="#E8A898" opacity="0.7"><path d="M440 140 h10 v8 h-10 Z"/><path d="M100 170 h30 v5 h-30 Z"/><path d="M160 178 h24 v5 h-24 Z"/><path d="M380 172 h28 v5 h-28 Z"/></g>
+<path d="M0 150 Q280 158 558 148" fill="none" stroke="#F2C8A8" stroke-width="3" opacity="0.5"/>
+</svg>

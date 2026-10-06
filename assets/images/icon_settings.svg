@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gearG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A8C0"/>
+      <stop offset="1" stop-color="#8D7BA8"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gearG)" stroke="#4A3728" stroke-width="3" stroke-linejoin="round">
+    <rect x="28" y="2" width="8" height="12" rx="2"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(45 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(90 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(135 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(180 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(225 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(270 32 32)"/>
+    <rect x="28" y="2" width="8" height="12" rx="2" transform="rotate(315 32 32)"/>
+    <circle cx="32" cy="32" r="20"/>
+  </g>
+  <circle cx="32" cy="32" r="9" fill="#FFF8EF" stroke="#4A3728" stroke-width="3.5"/>
+</svg>
